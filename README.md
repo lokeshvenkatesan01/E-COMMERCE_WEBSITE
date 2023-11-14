@@ -2,15 +2,25 @@
  *SOFTWARE
 REQUIREMENTS
 SPECIFICATION*
+
+
+
 For
+
 E-commerce website
+
+
 Prepared by:-
-Lokeshkumar V
-Harish N
-Kaviyarasu V
-Santhaprasanth sah V
+
+                       Lokeshkumar V
+                       Harish N
+                       Kaviyarasu V
+                       Santhaprasanth sah V
+
 Academic Year: 2023-2024
+
 Department of Computer Science and Engineering
+
 1. Introduction
 1.1 Purpose
 The purpose of this document is to define the requirements and specifications for the
@@ -18,6 +28,7 @@ developmentof an Ecommerce website. This website aims to provide an online platf
 for users to browse, search for, and purchase a wide range of products and services. The 
 website will offer a user- friendly shopping experience, facilitate secure transactions, and
 ensure seamless ordermanagement.
+
 1.2 Document Conventions
 ➢ Entire document should be justified.
 ➢ Convention for Main title
@@ -31,6 +42,7 @@ Font Size: 12
 ➢ Convention for body
 Font face: Times New Roman
 Font Size: 12
+
 1.3 Scope of Development Project
 The Ecommerce website project is defined by a comprehensive set of key features that 
 collectively contribute to its functionality and user experience. These features encompass 
@@ -48,6 +60,7 @@ implementation of reporting and analytics features will provide valuable insight
 behavior and website performance, supporting data-driven decision-making and continuous 
 improvement efforts.
 Department of Computer Science and Engineering
+
 1.4 Definitions, Acronyms and Abbreviations
 HTML: Hyper Text Markup Language
 CSS: Cascading Style Sheets
@@ -59,6 +72,7 @@ CMS: Content Management System
 SSL: Secure Sockets Layer
 PCI DSS: Payment Card Industry Data Security Standard
 RDBMS: Relational Database Management System
+
 1.5 References
 ➢ Books
  Software Requirements and Specifications: A Lexicon of Practice, Principles
@@ -66,7 +80,8 @@ and Prejudices (ACM Press) by Michael Jackson
 Software Requirements (Microsoft) Second Edition By Karl E. Wiegers
 Software Engineering: A Practitioner’s Approach Fifth Edition By Roger S. Pressman
 Department of Computer Science and Engineering
-2. Overall Descriptions
+
+3. Overall Descriptions
 2.1 Product Perspective
 Use Case Diagram of Ecommerce website
 This is a high-level diagram of the Ecommerce project providing a basic overview. The users 
@@ -83,6 +98,7 @@ generate reports and analytics to monitor website performance. The system also h
 authentication and secure payment processing to ensure a safe and seamless shopping 
 experience for customers
 Department of Computer Science and Engineering
+
 2.2 Product Function
 Entity Relationship Diagram of Ecommerce Website
 The Ecommerce Website System offers real-time online access to a comprehensive catalog of
@@ -99,6 +115,7 @@ retrieve user account details from the database when necessary. Valid users, in 
 would be equivalent to registered customers on the Ecommerce website, who can access their
 account information and view transaction history.
 Department of Computer Science and Engineering
+
 2.3 User Classes and Characteristics
 The Ecommerce Website System caters to administrators and customers. Administrators wield 
 full control, while customers, including staff members, enjoy online shopping and may have
@@ -124,6 +141,7 @@ thewebsite.
 purchased orordered.
 • Search for Specific Products: Utilize search functionality to find particular
 productsof interest.
+
 2.4 Operating Environment
 The Ecommerce website will operate in a web-based environment accessible through common 
 web browsers such as Google Chrome, Mozilla Firefox, and Microsoft Edge. While it is
@@ -132,6 +150,7 @@ Explorer 11 and above, will also be ensured. Users will only need an internet co
 access the online platform, and there are no specific hardware requirements as it will be 
 accessible from various devices, including desktops, laptops, and mobile devices
 Department of Computer Science and Engineering
+
 2.5 Assumptions and Dependencies
 The assumptions are:-
 • Error-Free Code: The development team will strive to produce error-free code
@@ -168,6 +187,7 @@ management andorder processing.
 particularly when it comes to tracking product information and inventory.
 .
 Department of Computer Science and Engineering
+
 2.6 Requirement
 Software Configuration:-
 Front-End Development:
@@ -186,6 +206,7 @@ project's complexity and data storage needs.
 RAM: At least 4GB or more for smooth performance. Additional RAM can 
 provide better performance, especially if the website experiences heavy traffic or
 uses resource-intensivetechnologies.
+
 2.7 Data Requirement
 The inputs consist of the query to the database and the output consists of the solutions
 for thequery. The output also includes the user receiving the details of their accounts. In 
@@ -194,7 +215,8 @@ selecting books and putting into account. Now the output will be visible when th
 requests the server to get details of theiraccount in the form of time, date and which books
 are currently in the account.
 Department of Computer Science and Engineering
-3. External Interface Requirement
+
+5. External Interface Requirement
 3.1 GUI
 The Ecommerce website offers an intuitive graphical interface for both customers and
 administrators. Administrators have the ability to manage the system efficiently, 
@@ -228,7 +250,8 @@ This control panel enables administrators to add or remove users, manage product
 (add, edit, or remove products), and oversee lending options for a seamless Ecommerce
 websiteexperience..
 Department of Computer Science and Engineering
-4. System Features
+
+7. System Features
 The users of the system should be provided the surety that their account is secure. This is possible
 by providing:-
 • User Authentication: Secure user authentication, including validation of users using their
@@ -239,7 +262,8 @@ limits (e.g., maximum number of products in a cart), and managing fines for late
 • Accountability: Strict accountability measures to protect user privacy, ensuring that users can
 only access and manage their own accounts. Administrators retain access to all user accounts
 for oversight and management purposes.
-5. Other Non-functional Requirements
+
+9. Other Non-functional Requirements
 5.1 Performance Requirement
 The Ecommerce website we are developing will serve as the primary performance system across
 multiple branches of our organization, catering to interactions between customers, staff, and
@@ -301,7 +325,8 @@ The admin provides certain facilities to the users in the form of :-
 • File Organization: Maintaining proper file organization.
 • Server Maintenance: Regular server upkeep and timely updates
 Department of Computer Science and Engineering
-6. Other Requirements
+
+    
 6.1 Data and Category Requirement
 Various user categories, including teaching staff, administrators, librarians, and students, have
 distinctaccess rights based on their roles. Administrators possess full data management 
@@ -330,6 +355,7 @@ Requirement Attributes
 S: Safety, Scope, Security, System Features
 U: User, User Class and Characteristics, User Requirement
 Department of Computer Science and Engineering
+
 6.3 Glossary
 The following are the list of conventions and acronyms used in this document and the project
 as well:
@@ -346,6 +372,7 @@ as well:
 • Class Diagram: Static structure diagram describing system structure.
 • Interface: Communication medium.
 • Unique Key: Distinguishing database entries
+
 6.4 Class Diagram
 A class is an abstract, user-defined description of a data type, specifying its attributes and allowable
 operations on its instances or objects. Each data class is characterized by a name, a set of attributes
